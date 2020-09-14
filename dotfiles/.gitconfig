@@ -1,0 +1,8 @@
+[alias]
+    lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    co = checkout
+[fetch]
+    prune = true
+[core]
+    quotepath = false
+
