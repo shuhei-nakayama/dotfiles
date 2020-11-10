@@ -9,7 +9,7 @@ fi
 mkdir -p $backup_dir
 
 #DOT_FILES=(.bashrc .bash_profile .vimrc .gitconfig .tmux.conf .tigrc)
-DOT_FILES=(.bashrc .bash_profile .gitconfig .vimrc)
+DOT_FILES=(.zshenv .zshrc .zprofile .bashrc .bash_profile .gitconfig .vimrc)
 
 for file in ${DOT_FILES[@]}
 do
